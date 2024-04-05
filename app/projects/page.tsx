@@ -1,7 +1,7 @@
 "use client";
 
 import { ProjectsData } from "../lib/projects-data";
-import ProjectCard from "../components/Projectcard";
+import ProjectCard from "../components/ProjectCard";
 import React from "react";
 import { useNavbarContext } from "../lib/navbarcontext";
 

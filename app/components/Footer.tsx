@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="mt-auto">
       <hr className="h-px w-4/5 md:w-3/5 mx-auto my-0" />
       <div className="flex md:w-3/5 mx-auto justify-around items-center gap-y-0 gap-x-4 py-8">
-        <p>© {new Date().getFullYear()} Cezary Szal's Portfolio</p>
+        <p>© {new Date().getFullYear()} Cezary Szal&apos;s Portfolio</p>
         <div className="flex gap-5 md:gap-10">
           {FooterLinks.map((footerLink) => (
             <Link key={footerLink.name} href={footerLink.link}>

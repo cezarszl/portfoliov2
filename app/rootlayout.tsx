@@ -2,7 +2,7 @@
 
 import { nunito } from "./lib/fonts";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import React from "react";
 import { NavbarContext } from "./lib/navbarcontext";

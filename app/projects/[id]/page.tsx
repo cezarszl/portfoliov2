@@ -6,14 +6,13 @@ import "react-medium-image-zoom/dist/styles.css";
 import { useNavbarContext } from "../../lib/navbarcontext";
 
 export default function Page({ params }: { params: { id: string } }) {
+  const { isOpened } = useNavbarContext();
   const projectId = parseInt(params.id, 10);
   const project = ProjectsData.find((project) => project.id === projectId);
 
   if (!project) {
     return <div>Project not found</div>;
   }
-
-  const { isOpened } = useNavbarContext();
 
   return (
     <main

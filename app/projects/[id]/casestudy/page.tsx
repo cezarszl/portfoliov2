@@ -91,9 +91,9 @@ export default function Casestudy() {
             was utilized for design elements, while Redux managed state across
             the application. React Hook Form and Zod were employed for form
             validation, ensuring data integrity. Additionally, React Toastify
-            provided notifications for user interactions. The app's structure
-            was organized with separate views and components, including login,
-            signup, movie display, and profile manage.
+            provided notifications for user interactions. The app&apos;s
+            structure was organized with separate views and components,
+            including login, signup, movie display, and profile manage.
           </p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
             Duration
@@ -145,9 +145,9 @@ export default function Casestudy() {
             Final thoughts
           </h2>
           <p className="text-base md:text-lg lg:text-xl text-justify mb-16">
-            Overall, I'm immensely proud of the product I've created. It has
-            provided me with a wealth of new knowledge and perspectives. ReactJS
-            has emerged as my favorite JavaScript library, thanks to its
+            Overall, I&apos;m immensely proud of the product I&apos;ve created.
+            It has provided me with a wealth of new knowledge and perspectives.
+            ReactJS has emerged as my favorite JavaScript library, thanks to its
             versatility and efficiency in building dynamic user interfaces.
           </p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">

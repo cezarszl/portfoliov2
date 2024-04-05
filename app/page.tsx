@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="text-center mt-8 md:mt-12">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-          Hey, I'm Cezary 👋
+          Hey, I&apos;m Cezary 👋
         </h1>
         <TextEffect />
       </div>
