@@ -19,7 +19,7 @@ export default function RootLayout({
       <html lang="en">
         <body
           className={`min-h-screen w-full bg-cover bg-center ${nunito.className} antialiased`}
-          style={{ backgroundImage: "url(/bg.webp)" }}
+          // style={{ backgroundImage: "url(/bg.webp)" }}
         >
           <Navbar />
           <Particle />

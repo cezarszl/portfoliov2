@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        'custom-body': '#1D1E20',
+        'custom-body': '#212121',
       },
       textColor: {
         'custom-body': '#DADADB',
