@@ -56,17 +56,19 @@ export default function Page({ params }: { params: { id: string } }) {
             />
           </Zoom>
         </div>
-        <div className="my-10">
-          <h3 className="text-1xl md:text-2xl lg:text-3xl font-bold mb-4">
-            Live demo
-          </h3>
-          <a
-            className="text-base md:text-lg lg:text-xl md:mb-10"
-            href={project.demoLink}
-          >
-            {project.demoLink}
-          </a>
-        </div>
+        {project.demoLink && (
+          <div className="my-10">
+            <h3 className="text-1xl md:text-2xl lg:text-3xl font-bold mb-4">
+              Live demo
+            </h3>
+            <a
+              className="text-base md:text-lg lg:text-xl md:mb-10"
+              href={project.demoLink}
+            >
+              {project.demoLink}
+            </a>
+          </div>
+        )}
         <div>
           <h3 className="text-1xl md:text-2xl lg:text-3xl font-bold mb-4">
             Github
