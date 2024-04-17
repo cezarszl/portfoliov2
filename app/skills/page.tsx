@@ -2,19 +2,20 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { SkillData } from "../lib/constants";
+import { SkillData1, SkillData2 } from "../lib/constants";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { useNavbarContext } from "../lib/navbarcontext";
+import { usePathname } from "next/navigation";
 
 const Skills = () => {
   const { isOpened } = useNavbarContext();
-  return (
-    <main
-      className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-auto my-32 ${
-        isOpened ? "mt-48" : ""
-      }`}
-    >
+
+  const path = usePathname();
+  const isSkillsPage = path === "/skills";
+
+  const content = (
+    <>
       <div className="text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Skills & Technologies
@@ -34,7 +35,7 @@ const Skills = () => {
         modules={[Autoplay]}
         className="w-full mt-20"
       >
-        {SkillData.map((skill, index) => (
+        {SkillData1.map((skill, index) => (
           <SwiperSlide
             key={index}
             className="!flex flex-col items-center md:min-h-48 min-h-28"
@@ -64,7 +65,7 @@ const Skills = () => {
         modules={[Autoplay]}
         className="w-full"
       >
-        {SkillData.map((skill, index) => (
+        {SkillData2.map((skill, index) => (
           <SwiperSlide
             key={index}
             className="!flex flex-col items-center md:min-h-48 min-h-28"
@@ -82,7 +83,23 @@ const Skills = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </main>
+    </>
+  );
+
+  return (
+    <>
+      {isSkillsPage ? (
+        <main
+          className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-auto my-32 ${
+            isOpened ? "mt-48" : ""
+          }`}
+        >
+          {content}
+        </main>
+      ) : (
+        content
+      )}
+    </>
   );
 };
 

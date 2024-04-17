@@ -49,66 +49,124 @@ export const FooterLinks = [
     },
 ];
 
-export const SkillData = [
+export const SkillData1 = [
     {
         name: "Html 5",
-        Image: "/skills/html.png",
+        Image: "/skills/html5-color.svg",
         width: 80,
         height: 80,
     },
     {
         name: "Css",
-        Image: "/skills/css.png",
+        Image: "/skills/css3-color.svg",
         width: 80,
         height: 80,
     },
     {
         name: "JavaScript",
-        Image: "/skills/js.png",
+        Image: "/skills/javascript-color.svg",
         width: 80,
         height: 80,
     },
     {
         name: "Tailwind Css",
-        Image: "/skills/tailwind.png",
+        Image: "/skills/tailwindcss-color.svg",
         width: 80,
         height: 80,
     },
     {
         name: "React",
-        Image: "/skills/react.png",
+        Image: "/skills/react-color.svg",
         width: 80,
         height: 80,
     },
     {
         name: "Redux",
-        Image: "/skills/redux.png",
+        Image: "/skills/redux-color.svg",
         width: 80,
         height: 80,
     },
 
     {
         name: "TypeScript",
-        Image: "/skills/ts.png",
+        Image: "/skills/typescript-color.svg",
         width: 80,
         height: 80,
     },
     {
-        name: "Next js 13",
-        Image: "/skills/next.png",
+        name: "NextJS",
+        Image: "/skills/nextdotjs.svg",
         width: 80,
         height: 80,
     },
     {
-        name: "Node js",
-        Image: "/skills/node-js.png",
+        name: "NodeJS",
+        Image: "/skills/nodejs.svg",
         width: 80,
         height: 80,
     },
+    {
+        name: "Angular",
+        Image: "/skills/angular-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "Bootstrap",
+        Image: "/skills/bootstrap-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "jQuery",
+        Image: "/skills/jquery-color.svg",
+        width: 80,
+        height: 80,
+    },
+];
+
+export const SkillData2 = [
     {
         name: "Mongo db",
-        Image: "/skills/mongodb.png",
+        Image: "/skills/mongodb-color.svg",
         width: 80,
         height: 80,
     },
+    {
+        name: "Postgres SQL",
+        Image: "/skills/postgresql-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "AWS Lambda",
+        Image: "/skills/awslambda-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "Google Firebase",
+        Image: "/skills/firebase-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "PHP",
+        Image: "/skills/php-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "Git",
+        Image: "/skills/git-color.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "Expo",
+        Image: "/skills/expo-color.svg",
+        width: 80,
+        height: 80,
+    },
+
 ];
