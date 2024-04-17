@@ -10,7 +10,7 @@ const ContactForm = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Get in touch
           </h1>
-          <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
+          <p className="pt-2 pb-4">Fill in the form to start a conversation.</p>
           <div className="space-y-4">
             <p className="flex items-center">
               <svg
@@ -42,6 +42,9 @@ const ContactForm = () => {
             <p className="flex items-center">
               <RxGithubLogo className="w-5 h-5 mr-2 sm:mr-6" />
               <a href="https://github.com/cezarszl">GitHub</a>
+            </p>
+            <p className="mt-12 flex items-center">
+              I strive to respond to all inquiries within 48 hours.
             </p>
           </div>
         </div>
