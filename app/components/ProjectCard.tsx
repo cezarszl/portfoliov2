@@ -9,6 +9,7 @@ interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
+  technologies: string;
   gitHubLink: string;
   demoLink: string;
 }
@@ -18,6 +19,7 @@ const ProjectCard = ({
   image,
   title,
   description,
+  technologies,
   gitHubLink,
   demoLink,
 }: ProjectCardProps) => {
@@ -58,6 +60,9 @@ const ProjectCard = ({
           <div className="flex flex-col gap-12 py-3">
             <h1 className="text-white text-2xl font-semibold">{title}</h1>
             <p className="text-white text-base text-justify">{description}</p>
+            <p className="text-white text-base text-center -mt-4">
+              Tech stack: <span className="font-bold">{technologies}</span>
+            </p>
           </div>
           <div className="relative flex justify-evenly items-center w-full mt-auto">
             <Link
