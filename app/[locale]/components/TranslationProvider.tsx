@@ -17,8 +17,8 @@ const TranslationProvider = React.memo<
   const i18n = createInstance();
 
   initTranslations(locale, namespaces, i18n, resources);
-
+  TranslationProvider.displayName = "TranslationProvider";
   return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>;
 });
-TranslationProvider.displayName = "TranslationProvider";
+
 export default TranslationProvider;
