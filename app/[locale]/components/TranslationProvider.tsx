@@ -10,14 +10,14 @@ interface TranslationProviderProps {
   namespaces: string[];
   resources: any;
 }
-
+/* eslint-disable react/display-name */
 const TranslationProvider = React.memo<
   PropsWithChildren<TranslationProviderProps>
 >(({ children, locale, namespaces, resources }) => {
   const i18n = createInstance();
 
   initTranslations(locale, namespaces, i18n, resources);
-  TranslationProvider.displayName = "TranslationProvider";
+
   return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>;
 });
 
