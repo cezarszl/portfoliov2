@@ -7,21 +7,23 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { useNavbarContext } from "../lib/navbarcontext";
 import { usePathname } from "next/navigation";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
   const { isOpened } = useNavbarContext();
+  const { t } = useTranslation();
 
   const path = usePathname();
-  const isSkillsPage = path === "/skills";
+  const isSkillsPage = path === "/skills" || path === "/de/skills";
 
   const content = (
     <>
       <div className="text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-          Skills & Technologies
+          {t("skills.title")}
         </h1>
         <p className="text-base md:text-lg lg:text-xl md:mb-10">
-          Using the latest tech this world has to offer
+          {t("skills.subtitle")}
         </p>
       </div>
       <Swiper

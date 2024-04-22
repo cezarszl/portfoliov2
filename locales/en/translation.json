@@ -1,0 +1,78 @@
+{
+    "home": {
+        "welcome": "Hey, I'm Cezary 👋",
+        "texteffect1": "A passionate",
+        "texteffect2": "Full-Stack",
+        "texteffect3": "Developer",
+        "message": "Armed with a strong grasp of both front-end and back-end technologies, I wield JavaScript and React with precision to construct seamless, responsive websites. My mission is to find a role where I can contribute to innovative projects, particularly in dynamic startups or forward-thinking tech firms. My academic background has endowed me with a methodical approach to problem-solving and a deep understanding of computational logic.",
+        "resumebtn": "Download Resume",
+        "gitbtn": "Get in Touch",
+        "portfoliobtn": "View Portfolio"
+    },
+    "projects": {
+        "title": "Most recent projects",
+        "subtitle": "Click for more details."
+    },
+     "skills": {
+        "title": "Skills & Technologies",
+        "subtitle": "Using the latest tech this world has to offer."
+    },
+    "about": {
+        "title": "About me",
+        "subtitle": "A few words.",
+        "content1": "Born and raised in Częstochowa, Poland. I fell in love with computers and technology from the first Commodore 64. For this reason, I educated myself at the local university in the department of computer science. After a long 10-year stay in Great Britain and gaining experience in other industries, I joined the rest of my family and moved to Hanover, Germany. With major changes, I decided to take part in CareersFoundry's bootcamp and return to what I love, which is programming.",
+        "content2": "Besides new technologies, I am a big fan of football, tennis, and esports. Moreover, I try to spend every vacation traveling. In 2023, I completed the Caminho de Portugal, which is over 300 km of hiking through Portugal to Santiago de Compostela in Spain.",
+        "content3": "I enjoy the full spectrum of web development, but I'm particularly passionate about integrating front-end and back-end technologies to create seamless user experiences. On the front-end, I love crafting interactive and visually appealing interfaces using modern frameworks like React or Angular. This involves a lot of creative problem-solving and design thinking, which are aspects I find deeply rewarding. On the back-end, I'm intrigued by the challenge of designing robust APIs and optimizing database interactions to ensure performance and scalability. Working with databases, whether SQL or NoSQL, allows me to structure data effectively and leverage it to drive the application's functionality. What excites me the most is seeing all these components come together into a cohesive and functional application that provides real value to users."
+    },
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": "Fill in the form to start a conversation.",
+        "reply": "I strive to respond to all inquiries within 48 hours.",
+        "content1": "Open to remote, freelance, and full-time opportunities in software development.",
+        "content2": "Please feel free to reach out to me with any opportunities or inquiries.",
+        "content3": "Thank you for considering my portfolio.",
+        "fullname": "Full name",
+        "email": "Email",
+        "message": "Message"
+    },
+    "navbar": {
+        "Home": "Home",
+        "Projects": "Projects",
+        "Skills": "Skills",
+        "About": "About",
+        "Contact": "Contact"
+    },
+    "projectcard": {
+        "techstack": "Tech Stack",
+        "viewdetails": "View Details",
+        "casestudy": "Case Study",
+        "github": "GitHub",
+        "demo": "Demo"
+    },
+    "casestudy": {
+        "title": "MovieScope Case Study",
+        "overview": "Overwiew",
+        "overview_content": "MovieScope is an app built using ReactJS, leveraging previously designed server-side code (including a REST API and database). Users can register an account, log in, and access information on a variety of movies. Additionally, the app allows users to update their personal data and create a list of favorite movies.",
+        "purpose": "Purpose",
+        "purpose_content": "This project was created as part of my web development bootcamp at CareerFoundry to demonstrate front-end development mastery using the React library.",
+        "figure1": "Figure 1. Main view of the websie (left) and VSCode editor (right)",
+        "objective": "Objective",
+        "objective_content": "The goal of the project was to create a fully responsive client-side interface from scratch, incorporating a range of useful functionalities using popular React libraries. This aimed to refine my skills and enhance my portfolio.",
+        "figure2": "Figure 2. Profile view (left) and single movie view (right)",
+        "development": "Development process overwiew",
+        "development_content": "The app was developed as a React single-page application, with interactions facilitated by Axios for API communication. Bootstrap was utilized for design elements, while Redux managed state across the application. React Hook Form and Zod were employed for form validation, ensuring data integrity. Additionally, React Toastify provided notifications for user interactions. The app's structure was organized with separate views and components, including login, signup, movie display, and profile manage.",
+        "duration": "Duration",
+        "duration_content": "Crafting the client-side interface demanded significantly more time compared to designing the server-side architecture. The process involved immersing myself in various new concepts to achieve the desired outcome. Also, a considerable amount of time was dedicated to improving the UI and layout design to ensure optimal user experience.",
+        "figure3": "Figure 3. Login view (left) and registration view (right).",
+        "challenges": "Challenges",
+        "challenges_content": "This project really required me to learn of lot of new things. I encountered the greatest challenge in grasping the Redux library and seamlessly integrating my layout with Bootstrap using CSS. However, despite these hurdles, I enjoyed working on this project, making it my favorite one thus far.",
+        "futuresteps": "Future Steps",
+        "futuresteps_content": "During my free time, I continue to enhance the project by adding new functionalities such as Forgotten Password, integration with Google Authentication, and the ability for users to rate movies. These additions serve as opportunities for me to further polish my JavaScript skills and strengthen my understanding of web development practices.",
+        "finalthoughts": "Final Thoughts",
+        "finalthoughts_content": "Overall, I'm immensely proud of the product I've created. It has provided me with a wealth of new knowledge and perspectives. ReactJS has emerged as my favorite JavaScript library, thanks to its versatility and efficiency in building dynamic user interfaces.",
+        "credits": "Credits",
+        "leaddeveloper": "Lead Developer",
+        "tutor": "Tutor",
+        "mentor": "Mentor"
+    }
+}

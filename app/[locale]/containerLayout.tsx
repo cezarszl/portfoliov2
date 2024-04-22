@@ -1,13 +1,12 @@
 "use client";
-
 import { nunito } from "./lib/fonts";
-import "./globals.css";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import React from "react";
 import { NavbarContext } from "./lib/navbarcontext";
 import Particle from "./components/Particle";
-export default function RootLayout({
+
+export default function ContainerLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -15,11 +14,10 @@ export default function RootLayout({
   const [isOpened, setIsOpened] = React.useState(false);
 
   return (
-    <NavbarContext.Provider value={{ isOpened, setIsOpened }}>
-      <html lang="en">
-        <body
+    <>
+      <NavbarContext.Provider value={{ isOpened, setIsOpened }}>
+        <div
           className={`min-h-screen w-full bg-cover bg-center ${nunito.className} antialiased`}
-          // style={{ backgroundImage: "url(/bg.webp)" }}
         >
           <Navbar />
           <Particle />
@@ -30,8 +28,8 @@ export default function RootLayout({
             async
             defer
           ></script>
-        </body>
-      </html>
-    </NavbarContext.Provider>
+        </div>
+      </NavbarContext.Provider>
+    </>
   );
 }

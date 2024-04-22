@@ -1,16 +1,19 @@
 import React from "react";
 import { RxGithubLogo } from "react-icons/rx";
 import { SiLinkedin } from "react-icons/si";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="md:py-0 md:px-6">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Get in touch
+            {t("contact.title")}
           </h1>
-          <p className="pt-2 pb-4">Fill in the form to start a conversation.</p>
+          <p className="pt-2 pb-4">{t("contact.subtitle")}</p>
           <div className="space-y-4">
             <p className="flex items-center">
               <svg
@@ -43,9 +46,7 @@ const ContactForm = () => {
               <RxGithubLogo className="w-5 h-5 mr-2 sm:mr-6" />
               <a href="https://github.com/cezarszl">GitHub</a>
             </p>
-            <p className="mt-12 flex items-center">
-              I strive to respond to all inquiries within 48 hours.
-            </p>
+            <p className="mt-12 flex items-center">{t("contact.reply")}</p>
           </div>
         </div>
         <form
@@ -60,7 +61,7 @@ const ContactForm = () => {
           />
 
           <label className="block">
-            <span className="mb-1">Full name</span>
+            <span className="mb-1">{t("contact.fullname")}</span>
             <input
               type="text"
               name="name"
@@ -69,7 +70,7 @@ const ContactForm = () => {
             />
           </label>
           <label className="block">
-            <span className="mb-1">Email address</span>
+            <span className="mb-1">{t("contact.email")}</span>
             <input
               type="email"
               name="email"
@@ -78,7 +79,7 @@ const ContactForm = () => {
             />
           </label>
           <label className="block">
-            <span className="mb-1">Message</span>
+            <span className="mb-1">{t("contact.message")}</span>
             <textarea
               rows={3}
               name="message"

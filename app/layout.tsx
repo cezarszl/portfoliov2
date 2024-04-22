@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
-import RootLayout from "./rootlayout";
+import i18nConfig from "@/app/i18nConfig";
+
 export const metadata: Metadata = {
   title: "Cezary Szal - Web Developer",
   description: "Cezary Szal - Web Developer",
 };
-// Import the LayoutProps type from the appropriate module
 
-export default function Layout({
+export function generateStaticParams() {
+  return i18nConfig.locales.map((locale) => ({ locale }));
+}
+
+export default function RootLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="en">
-      <body>
-        <RootLayout>{children}</RootLayout>
-      </body>
+    <html lang={locale}>
+      <body>{children}</body>
     </html>
   );
 }

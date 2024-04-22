@@ -1,15 +1,25 @@
 import { TypeAnimation } from "react-type-animation";
 
-const TextEffect = () => {
+type TextEffectProps = {
+  textEffect1: string;
+  textEffect2: string;
+  textEffect3: string;
+};
+
+const TextEffect: React.FC<TextEffectProps> = ({
+  textEffect1,
+  textEffect2,
+  textEffect3,
+}) => {
   return (
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        "A passionate",
+        textEffect1,
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        "Full-Stack",
+        textEffect2,
         1500,
-        "webdeveloper",
+        textEffect3,
         1500,
       ]}
       speed={50}

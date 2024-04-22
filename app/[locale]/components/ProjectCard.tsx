@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 interface ProjectCardProps {
   id: number;
@@ -25,6 +26,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const { t } = useTranslation();
 
   function handleFlip() {
     if (!isAnimating) {
@@ -57,11 +59,12 @@ const ProjectCard = ({
           className="flip-card-back w-full h-full group relative bg-black bg-cover bg-center text-white flex flex-col p-4"
         >
           {/* <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-0 " /> */}
-          <div className="flex flex-col gap-12 py-3">
+          <div className="flex flex-col gap-7 py-3">
             <h1 className="text-white text-2xl font-semibold">{title}</h1>
             <p className="text-white text-base text-justify">{description}</p>
             <p className="text-white text-base text-center -mt-4">
-              Tech stack: <span className="font-bold">{technologies}</span>
+              {t("projectcard.techstack")}:
+              <span className="font-bold"> {technologies}</span>
             </p>
           </div>
           <div className="relative flex justify-evenly items-center w-full mt-auto">
@@ -70,7 +73,7 @@ const ProjectCard = ({
               className="flex items-center no-underline hover:underline text-white"
               onClick={(e) => e.stopPropagation()}
             >
-              View Details
+              {t("projectcard.viewdetails")}
             </Link>
             {id === 1 && (
               <Link
@@ -78,7 +81,7 @@ const ProjectCard = ({
                 className="flex items-center no-underline hover:underline text-white"
                 onClick={(e) => e.stopPropagation()}
               >
-                Case Study
+                {t("projectcard.casestudy")}
               </Link>
             )}
             <Link
@@ -86,14 +89,14 @@ const ProjectCard = ({
               className="flex items-center no-underline hover:underline text-white"
               onClick={(e) => e.stopPropagation()}
             >
-              GitHub
+              {t("projectcard.github")}
             </Link>
             <Link
               href={demoLink}
               className="flex items-center no-underline hover:underline text-white"
               onClick={(e) => e.stopPropagation()}
             >
-              Demo
+              {t("projectcard.demo")}
             </Link>
           </div>
         </div>

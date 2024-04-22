@@ -1,9 +1,11 @@
 "use client";
 import ContactForm from "../components/ContactForm";
 import { useNavbarContext } from "../lib/navbarcontext";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { isOpened } = useNavbarContext();
+  const { t } = useTranslation();
 
   return (
     <main
@@ -15,12 +17,11 @@ const Contact = () => {
         <ContactForm />
       </div>
       <p className="mt-10 text-xl font-normal">
-        Open to remote, freelance, and full-time opportunities in software
-        development.
+        {t("contact.content1")}
         <br />
-        Please feel free to reach out to me with any opportunities or inquiries.
+        {t("contact.content2")}
         <br />
-        Thank you for considering my portfolio.
+        {t("contact.content3")}
       </p>
     </main>
   );

@@ -1,0 +1,81 @@
+{
+    "home": {
+        "welcome": "Hey, ich bin Cezary 👋",
+        "texteffect1": "Ein leidenschaftlicher",
+        "texteffect2": "Full-Stack",
+        "texteffect3": "Entwickler",
+        "message": "Ausgestattet mit einem starken Verständnis für Front-End- und Back-End-Technologien, nutze ich JavaScript und React mit Präzision, um nahtlose, reaktionsfähige Websites zu erstellen. Mein Ziel ist es, eine Rolle zu finden, in der ich zu innovativen Projekten beitragen kann, insbesondere in dynamischen Startups oder fortschrittlichen Technologieunternehmen. Mein akademischer Hintergrund hat mir einen methodischen Ansatz zur Problemlösung und ein tiefes Verständnis der Berechnungslogik verliehen.",
+        "resumebtn": "Lebenslauf herunterladen",
+        "gitbtn": "Kontakt aufnehmen",
+        "portfoliobtn": "Portfolio ansehen"
+},
+
+    "projects": {
+        "title": "Neueste Projekte",
+        "subtitle": "Klicken Sie für weitere Details."
+},
+    "skills": {
+        "title": "Fähigkeiten & Technologien",
+        "subtitle": "Nutzung der neuesten Technik, die diese Welt zu bieten hat."
+    },
+     "about": {
+        "title": "Über mich",
+        "subtitle": "Ein paar Worte.",
+        "content1": "Geboren und aufgewachsen in Częstochowa, Polen. Ich habe mich von meinem ersten Commodore 64 an in Computer und Technologie verliebt. Aus diesem Grund habe ich mich an der örtlichen Universität im Fachbereich Informatik weitergebildet. Nach einem langen 10-jährigen Aufenthalt in Großbritannien und gesammelten Erfahrungen in anderen Branchen, schloss ich mich dem Rest meiner Familie an und zog nach Hannover, Deutschland. Mit großen Veränderungen beschloss ich, am Bootcamp von CareersFoundry teilzunehmen und zu meiner Leidenschaft zurückzukehren, der Programmierung.",
+        "content2": "Neben neuen Technologien bin ich ein großer Fan von Fußball, Tennis und Esports. Außerdem versuche ich, jeden Urlaub mit Reisen zu verbringen. Im Jahr 2023 habe ich den Caminho de Portugal abgeschlossen, der über 300 km Wandern durch Portugal bis nach Santiago de Compostela in Spanien ist.",
+        "content3": "Ich genieße das gesamte Spektrum der Webentwicklung, aber besonders leidenschaftlich bin ich bei der Integration von Front-End- und Back-End-Technologien, um nahtlose Benutzererfahrungen zu schaffen. Im Front-End liebe ich es, interaktive und visuell ansprechende Schnittstellen mit modernen Frameworks wie React oder Angular zu gestalten. Dies erfordert viel kreatives Problemlösen und Design-Denken, Aspekte, die ich als besonders lohnend empfinde. Im Back-End fasziniert mich die Herausforderung, robuste APIs zu entwerfen und Datenbankinteraktionen zu optimieren, um Leistung und Skalierbarkeit zu gewährleisten. Die Arbeit mit Datenbanken, egal ob SQL oder NoSQL, ermöglicht es mir, Daten effektiv zu strukturieren und sie zu nutzen, um die Funktionalität der Anwendung voranzutreiben. Was mich am meisten begeistert, ist zu sehen, wie all diese Komponenten zu einer kohärenten und funktionsfähigen Anwendung zusammenkommen, die den Benutzern echten Mehrwert bietet."
+    },
+    "contact": {
+        "title": "In Kontakt treten",
+        "subtitle": "Füllen Sie das Formular aus, um ein Gespräch zu beginnen.",
+        "reply": "Ich bemühe mich, auf alle Anfragen innerhalb von 48 Stunden zu antworten.",
+        "content1": "Offen für Fernarbeit, freiberufliche Tätigkeit und Vollzeitmöglichkeiten in der Softwareentwicklung.",
+        "content2": "Bitte zögern Sie nicht, mich für jegliche Gelegenheiten oder Anfragen zu kontaktieren.",
+        "content3": "Danke, dass Sie mein Portfolio in Betracht ziehen.",
+        "fullname": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "message": "Nachricht"
+    },
+      "navbar": {
+        "Home": "Startseite",
+        "Projects": "Projekte",
+        "Skills": "Fähigkeiten",            
+        "About": "Über mich",            
+        "Contact": "Kontakt"
+    },
+    "projectcard": {
+        "techstack": "Technologie-Stack",
+        "viewdetails": "Details ansehen",
+        "casestudy": "Fallstudie",
+        "github": "GitHub",
+        "demo": "Demo"
+    },
+    "casestudy": {
+        "title": "MovieScope Fallstudie",
+        "overview": "Überblick",
+        "overview_content": "MovieScope ist eine App, die mit ReactJS entwickelt wurde und vorhandenen Server-Code (einschließlich einer REST-API und Datenbank) nutzt. Benutzer können ein Konto registrieren, sich anmelden und Informationen zu einer Vielzahl von Filmen abrufen. Zusätzlich ermöglicht die App den Benutzern, ihre persönlichen Daten zu aktualisieren und eine Liste ihrer Lieblingsfilme zu erstellen.",
+        "purpose": "Zweck",
+        "purpose_content": "Dieses Projekt wurde als Teil meines Webentwicklungs-Bootcamps bei CareerFoundry erstellt, um die Beherrschung der Front-End-Entwicklung mit der React-Bibliothek zu demonstrieren.",
+        "figure1": "Abbildung 1. Hauptansicht der Webseite (links) und VSCode-Editor (rechts).",
+        "objective": "Ziel",
+        "objective_content": "Ziel des Projekts war es, eine vollständig responsive Client-Seiten-Oberfläche von Grund auf neu zu erstellen, die eine Reihe nützlicher Funktionalitäten unter Verwendung beliebter React-Bibliotheken integriert. Dies zielte darauf ab, meine Fähigkeiten zu verfeinern und mein Portfolio zu erweitern.",
+        "figure2": "Abbildung 2. Profilansicht (links) und Einzelansicht eines Films (rechts).",
+        "development": "Überblick über den Entwicklungsprozess",
+        "development_content": "Die App wurde als eine React Single-Page-Anwendung entwickelt, wobei die Interaktionen durch Axios für die API-Kommunikation erleichtert wurden. Bootstrap wurde für Designelemente verwendet, während Redux den Zustand über die gesamte Anwendung hinweg verwaltete. React Hook Form und Zod wurden für die Formularvalidierung eingesetzt, um die Datenintegrität zu gewährleisten. Darüber hinaus bot React Toastify Benachrichtigungen für Benutzerinteraktionen. Die Struktur der App wurde mit separaten Ansichten und Komponenten organisiert, einschließlich Login, Anmeldung, Filmdarstellung und Profilverwaltung.",
+        "duration": "Dauer",
+        "duration_content": "Die Erstellung der Client-Seiten-Schnittstelle erforderte wesentlich mehr Zeit im Vergleich zum Design der Server-Seiten-Architektur. Der Prozess beinhaltete das Eintauchen in verschiedene neue Konzepte, um das gewünschte Ergebnis zu erreichen. Außerdem wurde ein beträchtlicher Zeitanteil darauf verwendet, das UI und das Layout-Design zu verbessern, um eine optimale Benutzererfahrung sicherzustellen.",
+        "figure3": "Abbildung 3. Anmeldeansicht (links) und Registrierungsansicht (rechts).",
+        "challenges": "Herausforderungen",
+        "challenges_content": "Dieses Projekt erforderte von mir, wirklich viele neue Dinge zu lernen. Die größte Herausforderung war das Verständnis der Redux-Bibliothek und die nahtlose Integration meines Layouts mit Bootstrap unter Verwendung von CSS. Trotz dieser Hindernisse hat mir die Arbeit an diesem Projekt Spaß gemacht, und es ist bisher mein Lieblingsprojekt.",
+        "futuresteps": "Zukünftige Schritte",
+        "futuresteps_content": "In meiner Freizeit setze ich die Verbesserung des Projekts fort, indem ich neue Funktionalitäten wie das Zurücksetzen vergessener Passwörter, die Integration mit Google-Authentifizierung und die Möglichkeit für Benutzer, Filme zu bewerten, hinzufüge. Diese Ergänzungen bieten mir die Möglichkeit, meine JavaScript-Kenntnisse weiter zu verbessern und mein Verständnis von Webentwicklungspraktiken zu stärken.",
+        "finalthoughts": "Abschließende Gedanken",
+        "finalthoughts_content": "Insgesamt bin ich unglaublich stolz auf das Produkt, das ich geschaffen habe. Es hat mir eine Fülle von neuem Wissen und Perspektiven gebracht. ReactJS hat sich als meine bevorzugte JavaScript-Bibliothek herausgestellt, dank ihrer Vielseitigkeit und Effizienz bei der Erstellung dynamischer Benutzeroberflächen.",
+        "credits": "Danksagung",
+        "leaddeveloper": "Hauptentwickler",
+        "tutor": "Tutor",
+        "mentor": "Mentor"
+    }
+}
+    
+
