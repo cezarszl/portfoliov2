@@ -11,7 +11,6 @@ const Projects = () => {
   const { isOpened } = useNavbarContext();
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  console.log(currentLanguage);
   const path = usePathname();
   const isSkillsPage = path === "/projects" || path === "/de/projects";
 

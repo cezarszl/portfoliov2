@@ -56,7 +56,7 @@ const Navbar = () => {
         <nav
           className={`${
             roboto_mono.className
-          } absolute lg:relative top-0 lg:top-auto left-0 lg:left-auto lg:right-auto bg-none p-8 lg:p-0 transform mt-12 ${
+          } absolute lg:relative top-0 lg:top-auto left-0 lg:left-auto lg:right-auto bg-none p-8 lg:p-0 transform lg:mt-0 mt-12 ${
             isMenuOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
           } transition-transform duration-300 ease-in-out lg:flex lg:flex-row`}
         >

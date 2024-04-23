@@ -12,7 +12,13 @@
 
     "projects": {
         "title": "Neueste Projekte",
-        "subtitle": "Klicken Sie für weitere Details."
+        "subtitle": "Klicken Sie für weitere Details.",
+         "details": {    
+                "technologies": "Technologien",
+                "screenshots": "Bildschirmfotos",
+                "demo": "Demo",
+                "github": "GitHub"
+        } 
 },
     "skills": {
         "title": "Fähigkeiten & Technologien",

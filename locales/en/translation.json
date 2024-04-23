@@ -11,7 +11,13 @@
     },
     "projects": {
         "title": "Most recent projects",
-        "subtitle": "Click for more details."
+        "subtitle": "Click for more details.",
+        "details": {    
+                "technologies": "Technologies",
+                "screenshots": "Screenshots",
+                "demo": "Demo",
+                "github": "GitHub"
+        }   
     },
      "skills": {
         "title": "Skills & Technologies",

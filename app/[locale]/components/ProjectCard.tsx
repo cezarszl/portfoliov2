@@ -56,13 +56,13 @@ const ProjectCard = ({
         </div>
         <div
           // style={{ backgroundImage: `url(${image})` }}
-          className="flip-card-back w-full h-full group relative bg-black bg-cover bg-center text-white flex flex-col p-4"
+          className="flip-card-back w-full h-full group relative bg-black bg-cover bg-center text-white flex flex-col px-6"
         >
           {/* <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-0 " /> */}
-          <div className="flex flex-col gap-7 py-3">
+          <div className="flex flex-col gap-5">
             <h1 className="text-white text-2xl font-semibold">{title}</h1>
             <p className="text-white text-base text-justify">{description}</p>
-            <p className="text-white text-base text-center -mt-4">
+            <p className="text-white text-base text-center">
               {t("projectcard.techstack")}:
               <span className="font-bold"> {technologies}</span>
             </p>
