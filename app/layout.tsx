@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import i18nConfig from '@/app/i18nConfig';
 import { ReactNode } from 'react';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 export const metadata: Metadata = {
   title: 'Cezary Szal - Web Developer',
@@ -19,8 +20,8 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang={locale}>
-      <head>
+    <Html lang={locale}>
+      <Head>
         <script dangerouslySetInnerHTML={{ __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,7 +29,7 @@ export default function RootLayout({
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-5MP9792D');
         ` }} />
-      </head>
+      </Head>
       <body>
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MP9792D"
@@ -37,6 +38,6 @@ export default function RootLayout({
         </noscript>
         {children}
       </body>
-    </html>
+    </Html>
   );
 }
