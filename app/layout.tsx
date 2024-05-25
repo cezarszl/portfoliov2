@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+ import type { Metadata } from 'next';
 import i18nConfig from '@/app/i18nConfig';
 import { ReactNode } from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head} from 'next/document';
 
 export const metadata: Metadata = {
   title: 'Cezary Szal - Web Developer',
