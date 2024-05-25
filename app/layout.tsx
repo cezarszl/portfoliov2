@@ -21,7 +21,6 @@ export default function RootLayout({
 }) {
   return (
    <html lang={locale}>
-      <head />
       <body>
         {children}
       </body>
