@@ -1,10 +1,10 @@
-import React from "react";
-import type { Metadata } from "next";
-import i18nConfig from "@/app/i18nConfig";
+import type { Metadata } from 'next';
+import i18nConfig from '@/app/i18nConfig';
+import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Cezary Szal - Web Developer",
-  description: "Cezary Szal - Web Developer",
+  title: 'Cezary Szal - Web Developer',
+  description: 'Cezary Szal - Web Developer',
 };
 
 export function generateStaticParams() {
@@ -14,10 +14,10 @@ export function generateStaticParams() {
 export default function RootLayout({
   children,
   params: { locale },
-}: Readonly<{
-  children: React.ReactNode;
+}: {
+  children: ReactNode;
   params: { locale: string };
-}>) {
+}) {
   return (
     <html lang={locale}>
       <head>
