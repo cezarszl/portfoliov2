@@ -57,7 +57,7 @@
     },
     "casestudy": {
         "title": "MovieScope Case Study",
-        "overview": "Overwiew",
+        "overview": "Overwiev",
         "overview_content": "MovieScope is an app built using ReactJS, leveraging previously designed server-side code (including a REST API and database). Users can register an account, log in, and access information on a variety of movies. Additionally, the app allows users to update their personal data and create a list of favorite movies.",
         "purpose": "Purpose",
         "purpose_content": "This project was created as part of my web development bootcamp at CareerFoundry to demonstrate front-end development mastery using the React library.",
@@ -65,7 +65,7 @@
         "objective": "Objective",
         "objective_content": "The goal of the project was to create a fully responsive client-side interface from scratch, incorporating a range of useful functionalities using popular React libraries. This aimed to refine my skills and enhance my portfolio.",
         "figure2": "Figure 2. Profile view (left) and single movie view (right)",
-        "development": "Development process overwiew",
+        "development": "Development process overwiev",
         "development_content": "The app was developed as a React single-page application, with interactions facilitated by Axios for API communication. Bootstrap was utilized for design elements, while Redux managed state across the application. React Hook Form and Zod were employed for form validation, ensuring data integrity. Additionally, React Toastify provided notifications for user interactions. The app's structure was organized with separate views and components, including login, signup, movie display, and profile manage.",
         "duration": "Duration",
         "duration_content": "Crafting the client-side interface demanded significantly more time compared to designing the server-side architecture. The process involved immersing myself in various new concepts to achieve the desired outcome. Also, a considerable amount of time was dedicated to improving the UI and layout design to ensure optimal user experience.",
