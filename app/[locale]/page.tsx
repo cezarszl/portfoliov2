@@ -14,10 +14,9 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <main
-      // className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-4 md:mx-auto my-12 transition-all duration-300 ${
-      //   isOpened ? "mt-48" : ""
-      // }`}
-      className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-4 md:mx-auto my-12 transition-all duration-300`}
+      className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-4 md:mx-auto my-12 ${
+        isOpened ? "mt-48" : ""
+      }`}
     >
       <div className="max-w-32 sm:max-w-64 lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto">
         <Image
@@ -32,16 +31,16 @@ export default function Home() {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("home.welcome")}
         </h1>
-        {/* <TextEffect
+        <TextEffect
           textEffect1={t("home.texteffect1")}
           textEffect2={t("home.texteffect2")}
           textEffect3={t("home.texteffect3")}
-        /> */}
+        />
       </div>
-      <p className="m-14 text-xl font-normal text-center min-h-[50px]">
+      <p className="m-14 text-xl font-normal text-center">
         {t("home.message")}
       </p>
-      <div className="mt-[2rem] flex flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center justify-center sm:space-x-6 min-h-[150px]">
+      <div className="mt-[2rem] flex flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center justify-center sm:space-x-6">
         <a
           href="https://coach-courses-us.s3.amazonaws.com/exercises/723/61551/0835f576ed5066d2f35ccab4acc12a23/cezary-szal-resume--1-.pdf"
           target="_blank"
@@ -65,10 +64,10 @@ export default function Home() {
           </button>
         </a>
       </div>
-      <div className="mt-40 min-h-[400px]">
+      <div className="mt-40">
         <Skills />
       </div>
-      <div className="mt-12 min-h-[400px]">
+      <div className="mt-12">
         <Projects />
       </div>
     </main>
