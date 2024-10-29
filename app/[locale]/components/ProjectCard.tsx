@@ -75,7 +75,7 @@ const ProjectCard = ({
             >
               {t("projectcard.viewdetails")}
             </Link>
-            {id === 1 && (
+            {id === 3 && (
               <Link
                 href={`/projects/${id}/casestudy`}
                 className="flex items-center no-underline hover:underline text-white"
