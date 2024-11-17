@@ -61,10 +61,10 @@ export default function Home() {
           </button>
         </a>
       </div> */}
-      <div className="min-h-[500px] flex items-center justify-center">
+      <div className="min-h-[500px]">
         <Skills />
       </div>
-      <div className="min-h-[400px] flex items-center justify-center">
+      <div className="min-h-[400px]">
         <Projects />
       </div>
     </main>
