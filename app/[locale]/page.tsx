@@ -14,7 +14,7 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <main
-      className={`flex lg:w-[900px] min-h-screen text-center justify-center flex-col mx-4 md:mx-auto my-12 ${
+      className={`flex lg:w-[900px] min-h-screen text-center justify-center flex-col mx-4 md:mx-auto py-12 ${
         isOpened ? "mt-48" : ""
       }`}
     >
