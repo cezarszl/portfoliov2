@@ -13,21 +13,18 @@ export default function Home() {
   const { isOpened } = useNavbarContext();
   const { t } = useTranslation();
   return (
-    <main
-      className={`flex lg:w-[900px] min-h-screen text-center justify-center flex-col mx-4 md:mx-auto py-12 ${
-        isOpened ? "mt-48" : ""
-      }`}
-    >
-      <div className="max-w-32 sm:max-w-64 lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto">
+    <main className="flex w-full max-w-[900px] min-h-[100vh] text-center justify-center flex-col mx-4 md:mx-auto py-12">
+      {/* <div className="max-w-32 sm:max-w-64 lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto">
         <Image
           src="/images/profile.png"
-          className="rounded-full border-4 border-gray-300 shadow-lg transform transition-all md:hover:scale-105"
+          className="rounded-full border-4 border-gray-300 shadow-lg transform transition-all"
           width={200}
           height={200}
+          layout="fixed"
           alt="Cezary's personal headshot"
         />
       </div>
-      <div className="text-center mt-8 md:mt-12 min-h-8">
+      <div className="text-center mt-8 md:mt-12 min-h-[4rem]">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("home.welcome")}
         </h1>
@@ -63,11 +60,11 @@ export default function Home() {
             <BriefcaseIcon className="w-[1.6rem] h-[1.7rem] text-black" />
           </button>
         </a>
-      </div>
-      <div className="mt-40">
+      </div> */}
+      <div className="min-h-[500px] flex items-center justify-center">
         <Skills />
       </div>
-      <div className="mt-12">
+      <div className="min-h-[400px] flex items-center justify-center">
         <Projects />
       </div>
     </main>
