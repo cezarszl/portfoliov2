@@ -22,7 +22,7 @@ const Skills = () => {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("skills.title")}
         </h1>
-        <p className="text-base md:text-lg lg:text-xl md:mb-10">
+        <p className="text-base md:text-lg lg:text-xl md:mb-10 min-h-[2rem]">
           {t("skills.subtitle")}
         </p>
       </div>

@@ -9,14 +9,14 @@ const Contact = () => {
 
   return (
     <main
-      className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-auto my-32  ${
+      className={`flex lg:w-[900px] min-h-screen text-center justify-center flex-col mx-auto my-32  ${
         isOpened ? "mt-48" : ""
       }`}
     >
       <div className="flex items-center justify-center">
         <ContactForm />
       </div>
-      <p className="mt-10 text-xl font-normal">
+      <p className="mt-10 text-xl font-normal min-h-[2rem]">
         {t("contact.content1")}
         <br />
         {t("contact.content2")}

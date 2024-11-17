@@ -14,7 +14,7 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <main
-      className={`flex lg:w-[900px] min-h-min text-center justify-center flex-col mx-4 md:mx-auto my-12 ${
+      className={`flex lg:w-[900px] min-h-screen text-center justify-center flex-col mx-4 md:mx-auto my-12 ${
         isOpened ? "mt-48" : ""
       }`}
     >
@@ -37,7 +37,7 @@ export default function Home() {
           textEffect3={t("home.texteffect3")}
         />
       </div>
-      <p className="m-14 text-xl font-normal text-center">
+      <p className="m-14 text-xl font-normal text-center min-h-[2rem]">
         {t("home.message")}
       </p>
       <div className="mt-[2rem] flex flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center justify-center sm:space-x-6">

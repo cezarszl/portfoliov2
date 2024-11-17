@@ -20,7 +20,7 @@ const Projects = () => {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("projects.title")}
         </h1>
-        <p className="text-base md:text-lg lg:text-xl md:mb-10">
+        <p className="text-base md:text-lg lg:text-xl md:mb-10 min-h-[2rem]">
           {t("projects.subtitle")}
         </p>
       </div>
