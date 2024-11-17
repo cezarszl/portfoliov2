@@ -27,7 +27,7 @@ export default function Home() {
           alt="Cezary's personal headshot"
         />
       </div>
-      <div className="text-center mt-8 md:mt-12">
+      <div className="text-center mt-8 md:mt-12 min-h-8">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("home.welcome")}
         </h1>
