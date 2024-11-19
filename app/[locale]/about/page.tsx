@@ -23,11 +23,11 @@ const About = () => {
         </p>
       </div>
       <div className="md:flex md:gap-16">
-        <div className="block mx-auto w-10/12 md:hidden md:w-6/12">
+        <div className="w-[418px] h-[418px] block mx-auto md:hidden md:w-6/12">
           <Image
             src="/images/about.png"
-            width={1200}
-            height={1600}
+            width={418}
+            height={418}
             alt="Cezary's personal headshot"
             className="overflow-hidden w-full object-cover border-2 border-gray-300 filter grayscale transition-all duration-500 ease-in-out cursor-cell hover:grayscale-0 hover:scale-102 mb-14"
           />
@@ -52,8 +52,8 @@ const About = () => {
         <div className="hidden md:block md:w-6/12">
           <Image
             src="/images/about.png"
-            width={1200}
-            height={1600}
+            width={420}
+            height={420}
             alt="Cezary's personal headshot"
             className="overflow-hidden w-full object-cover border-2 border-gray-300 filter grayscale transition-all duration-500 ease-in-out cursor-cell hover:grayscale-0 hover:scale-102"
           />

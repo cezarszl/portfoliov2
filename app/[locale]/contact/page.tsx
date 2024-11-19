@@ -13,16 +13,15 @@ const Contact = () => {
         isOpened ? "mt-48" : ""
       }`}
     >
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center min-h-96">
         <ContactForm />
       </div>
-      <p className="mt-10 text-xl font-normal">
+
+      <p className="pt-16 text-xl font-normal min-h-8">
         {t("contact.content1")}
-        <br />
-        {t("contact.content2")}
-        <br />
-        {t("contact.content3")}
       </p>
+      <p className="text-xl font-normal min-h-8">{t("contact.content2")}</p>
+      <p className="text-xl font-normal min-h-8">{t("contact.content3")}</p>
     </main>
   );
 };

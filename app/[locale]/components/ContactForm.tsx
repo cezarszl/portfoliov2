@@ -15,7 +15,7 @@ const ContactForm = () => {
           </h1>
           <p className="pt-2 pb-4">{t("contact.subtitle")}</p>
           <div className="space-y-4">
-            <p className="flex items-center">
+            <p className="flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -26,7 +26,7 @@ const ContactForm = () => {
               </svg>
               <span>+4917623237640</span>
             </p>
-            <p className="flex items-center">
+            <p className="flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -38,15 +38,17 @@ const ContactForm = () => {
               </svg>
               <a href="mailto:cezarszal@gmail.com">cezarszal@gmail.com</a>
             </p>
-            <p className="flex items-center">
+            <p className="flex items-center justify-center">
               <SiLinkedin className="w-5 h-5 mr-2 sm:mr-6" />
               <a href="https://www.linkedin.com/in/cezary-szal/">LinkedIn</a>
             </p>
-            <p className="flex items-center">
+            <p className="flex items-center justify-center">
               <RxGithubLogo className="w-5 h-5 mr-2 sm:mr-6" />
               <a href="https://github.com/cezarszl">GitHub</a>
             </p>
-            <p className="mt-12 flex items-center">{t("contact.reply")}</p>
+            <p className="mt-12 flex items-center justify-center">
+              {t("contact.reply")}
+            </p>
           </div>
         </div>
         <form
@@ -61,7 +63,7 @@ const ContactForm = () => {
           />
 
           <label className="block">
-            <span className="mb-1">{t("contact.fullname")}</span>
+            <span className="mb-1 min-h-6">{t("contact.fullname")}</span>
             <input
               type="text"
               name="name"
@@ -70,7 +72,7 @@ const ContactForm = () => {
             />
           </label>
           <label className="block">
-            <span className="mb-1">{t("contact.email")}</span>
+            <span className="mb-1 min-h-6">{t("contact.email")}</span>
             <input
               type="email"
               name="email"
@@ -79,15 +81,19 @@ const ContactForm = () => {
             />
           </label>
           <label className="block">
-            <span className="mb-1">{t("contact.message")}</span>
+            <span className="mb-1 min-h-6">{t("contact.message")}</span>
             <textarea
               rows={3}
               name="message"
               required
-              className="block  text-black w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+              className="block  text-black w-full min-h-24 rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
             ></textarea>
           </label>
-          <div className="h-captcha" data-captcha="true"></div>
+          <div
+            className="h-captcha"
+            data-captcha="true"
+            data-size="invisible"
+          ></div>
           <button
             type="submit"
             className="self-center px-8 py-3 text-lg rounded border-2"

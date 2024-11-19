@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import React from "react";
 import { NavbarContext } from "./lib/navbarcontext";
 import Particle from "./components/Particle";
+import Script from "next/script";
 
 export default function ContainerLayout({
   children,
@@ -23,11 +24,11 @@ export default function ContainerLayout({
           <Particle />
           {children}
           <Footer />
-          <script
+          <Script
             src="https://web3forms.com/client/script.js"
             async
             defer
-          ></script>
+          ></Script>
         </div>
       </NavbarContext.Provider>
     </>
