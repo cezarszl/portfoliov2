@@ -18,7 +18,8 @@ export default function Home() {
         isOpened ? "mt-48" : ""
       }`}
     >
-      <div className="max-w-32 sm:max-w-64 lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto">
+      {/* <div className="max-w-32 sm:max-w-64 lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto"> */}
+      <div className="max-w-32 lg:max-w-lg w-[200px] h-[200px] mx-auto">
         <Image
           src="/images/profile.png"
           className="rounded-full border-4 border-gray-300 shadow-lg transform transition-all md:hover:scale-105"
@@ -27,7 +28,7 @@ export default function Home() {
           alt="Cezary's personal headshot"
         />
       </div>
-      <div className="text-center mt-8 md:mt-12">
+      <div className="text-center md:pt-28 min-h-24 lg:min-h-56">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           {t("home.welcome")}
         </h1>
@@ -37,10 +38,10 @@ export default function Home() {
           textEffect3={t("home.texteffect3")}
         />
       </div>
-      <p className="m-14 text-xl font-normal text-center">
+      <p className="mx-14 pt-12 text-xl font-normal text-center md:min-h-44">
         {t("home.message")}
       </p>
-      <div className="mt-[2rem] flex flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center justify-center sm:space-x-6">
+      <div className="pt-24 flex flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center justify-center sm:space-x-6">
         <a
           href="https://coach-courses-us.s3.amazonaws.com/exercises/723/61551/0835f576ed5066d2f35ccab4acc12a23/cezary-szal-resume--1-.pdf"
           target="_blank"
