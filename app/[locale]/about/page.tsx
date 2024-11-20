@@ -51,7 +51,7 @@ const About = () => {
         </div>
         <div className="hidden md:block md:w-6/12">
           <Image
-            src="/images/about.png"
+            src="/images/about.webp"
             width={420}
             height={420}
             alt="Cezary's personal headshot"

@@ -19,7 +19,7 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang={locale}>
+    <html lang={locale || i18nConfig.defaultLocale || "en"}>
       <body>
         <GoogleAnalytics gaId="G-HJL6D5SEH1" />
         {children}

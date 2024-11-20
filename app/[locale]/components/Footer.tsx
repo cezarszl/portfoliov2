@@ -10,7 +10,11 @@ const Footer = () => {
         <Link href="/impressum">Impressum</Link>
         <div className="flex gap-5 md:gap-10">
           {FooterLinks.map((footerLink) => (
-            <Link key={footerLink.name} href={footerLink.link}>
+            <Link
+              key={footerLink.name}
+              aria-label={footerLink.name}
+              href={footerLink.link}
+            >
               <footerLink.icon className="md:w-5 md:h-5 w-4 h-4" />
             </Link>
           ))}
