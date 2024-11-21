@@ -34,6 +34,7 @@ const Navbar = () => {
             viewBox="0 0 24 24"
             stroke="currentColor"
             className="w-8 h-8"
+            aria-label="toogle button"
           >
             {isMenuOpen ? (
               <path
