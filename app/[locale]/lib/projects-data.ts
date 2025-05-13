@@ -2,29 +2,28 @@ export const ProjectsData = [
   {
     id: 1,
     title: "QuickShop (React)",
-    description_en: "QuickShop is an e-commerce application built with React, utilizing TypeScript and CSS Modules to ensure a responsive user interface and stylish design. Zustand is used for state management, enabling smooth and efficient data processing.",
-    description_de: "QuickShop ist eine E-Commerce-Anwendung, die mit React entwickelt wurde und TypeScript sowie CSS Modules verwendet, um eine responsive Benutzeroberfläche und ein stilvolles Design zu gewährleisten. Zustand wird für das State-Management eingesetzt, was eine reibungslose und effiziente Datenverarbeitung ermöglicht.",
+    description_en: "QuickShop is a modern e-commerce frontend built with React and Vite. It integrates with a NestJS-based API to offer product browsing, filtering, favorite management, secure Stripe checkout, and user authentication via JWT or Google OAuth. Zustand manages state, and forms are validated with Zod and React Hook Form.",
+    description_de: "QuickShop ist ein modernes E-Commerce-Frontend, entwickelt mit React und Vite. Es integriert sich in eine auf NestJS basierende API und bietet Produktansicht, Filterung, Favoritenverwaltung, sicheren Stripe-Checkout sowie Benutzeranmeldung via JWT oder Google OAuth. Zustand übernimmt das State-Management, Formulare werden mit Zod und React Hook Form validiert.",
     cardImage: "/projects/QuickShop.webp",
-    technologies: "React, CSS Module, TypeScript, Zustand",
+    technologies: "React, TypeScript, Zustand, Stripe, Google OAuth, CSS Modules",
     gitHubLink: "https://github.com/cezarszl/Quickshop-frontend-vite",
     demoLink: "https://quickshop-frontend-vite.vercel.app/",
     imagePath1: "/projects/project_details/quickshop1.webp",
-    imagePath2: "/projects/project_details/quickshop2.webp",
-
+    imagePath2: "/projects/project_details/quickshop2.webp"
   },
   {
     id: 2,
     title: "QuickShop API (NestJS)",
-    description_en: "QuickShop API is built using Next.js, leveraging PostgreSQL as the database and Prisma ORM for seamless data management and interaction. This architecture ensures robust performance and efficient handling of data operations, providing a solid foundation for the e-commerce application.",
-    description_de: "QuickShop API wurde mit Next.js erstellt und nutzt PostgreSQL als Datenbank sowie Prisma ORM für nahtloses Datenmanagement und -interaktion. Diese Architektur gewährleistet eine robuste Leistung und eine effiziente Handhabung von Datenoperationen und bietet eine solide Grundlage für die E-Commerce-Anwendung.",
+    description_en: "QuickShop API is a RESTful backend built with NestJS and Prisma ORM, using PostgreSQL in a Docker container. It supports full e-commerce features like user authentication (JWT & Google OAuth), product and cart management, order processing, and Stripe payment integration. The API is fully documented via Swagger.",
+    description_de: "QuickShop API ist ein REST-Backend, entwickelt mit NestJS und Prisma ORM, das PostgreSQL in einem Docker-Container nutzt. Es unterstützt alle E-Commerce-Funktionen wie Benutzerauthentifizierung (JWT & Google OAuth), Produkt- und Warenkorbverwaltung, Bestellverarbeitung und Stripe-Zahlungsintegration. Die API ist vollständig mit Swagger dokumentiert.",
     cardImage: "/projects/QuickShopAPI.webp",
-    technologies: "NextJS, PostgresSQL, Prisma ORM, Swagger",
+    technologies: "NestJS, PostgreSQL, Prisma ORM, Docker, Stripe, Swagger",
     gitHubLink: "https://github.com/cezarszl/QuickShopAPI",
     demoLink: "https://quickshopapi-844fd64d6465.herokuapp.com/api",
     imagePath1: "/projects/project_details/quickshopapi1.webp",
-    imagePath2: "/projects/project_details/quickshopapi2.webp",
-
-  },
+    imagePath2: "/projects/project_details/quickshopapi2.webp"
+  }
+  ,
   {
     id: 3,
     title: "MovieScope (React)",
